@@ -47,7 +47,7 @@ def create_map(countries):
         latitude_1 = float(dict_lat_long[i].split(',')[0][1:])
         longitude_1 = float(dict_lat_long[i].split(',')[1][:-1])
         folium.Marker([latitude_1, longitude_1], popup=i).add_to(map_1)
-    map_1.save('mysite/templates/Map.html')
+    map_1.save('templates/Map.html')
 
 def get_top_song(artist_name, auth_key):
     """
