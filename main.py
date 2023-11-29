@@ -7,8 +7,8 @@ from geopy.geocoders import Nominatim
 import pycountry
 from requests import post, get
 
-CLIENT_ID = '910b4b3c014e48bfac5b92876a967470'
-CLIENT_SECRET = 'b5dbc928ecb644e4b8b3ade2f44e3a63'
+CLIENT_ID = 'InsertClientId'
+CLIENT_SECRET = 'InsertClientSecret'
 app = Flask(__name__)
 @app.route('/search', methods=['POST'])
 def get_id():
