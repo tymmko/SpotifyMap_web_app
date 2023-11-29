@@ -1,7 +1,7 @@
-# map_availablemarket Module
+# SpotifyMap Module
 
 ## Overview
-The `map_availablemarket` module is designed to provide a map showing countries where an artist's most popular song is available. This feature enhances user interaction by allowing them to request information about specific locations.
+The `SpotifyMap` module is designed to provide a map showing countries where an artist's most popular song is available. This feature enhances user interaction by allowing them to request information about specific locations.
 
 ## Features
 - **Interactive Map**: Click on a beacon to display information about the country.
